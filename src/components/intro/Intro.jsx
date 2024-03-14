@@ -23,7 +23,7 @@ export const Intro = () => {
       <div className="right">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
-          <h1>Safak Kocaoglu</h1>
+          <h1>Anmol Katakwar</h1>
           <h3>
             Freelance <span ref={textRef}></span>
           </h3>

@@ -4,7 +4,9 @@
   background-color: white;
   display: flex;
 
- 
+  @include mobile {
+    flex-direction: column;
+  }
 
   .left {
     flex: 1;
@@ -38,7 +40,10 @@
         height: 30px;
         font-size: 14px;
 
-        
+        @include mobile {
+          width: 200px;
+          height: 20px;
+        }
       }
 
       textarea {
@@ -46,7 +51,10 @@
         height: 200px;
         font-size: 14px;
 
-        
+        @include mobile {
+          width: 200px;
+          height: 100px;
+        }
       }
 
       button {
